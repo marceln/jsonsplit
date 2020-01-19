@@ -1,0 +1,28 @@
+{
+  "name": "jsonsplit",
+  "version": "1.0.0",
+  "description": "A .NET Core command line tool and library for splitting large JSON files (really large)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-lib": "dotnet build ./src/JsonSplit",
+    "build-tests": "dotnet build ./src/JsonSplit",
+    "build-exe": "dotnet build ./src/JsonSplit",
+    "run-lib": "dotnet run --project ./src/JsonSplit/JsonSplit.csproj",
+    "run-tests": "dotnet run ./src/JsonSplit",
+    "run-exe": "dotnet run ./src/JsonSplit",
+    "format": "dotnet format -w ./src/JsonSplit/JsonSplit.csproj"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marceln/jsonsplit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marceln/jsonsplit/issues"
+  },
+  "homepage": "https://github.com/marceln/jsonsplit#readme",
+  "devDependencies": {}
+}
